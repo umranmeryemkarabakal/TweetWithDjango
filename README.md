@@ -7,24 +7,24 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 A small Twitter-like web app built with Django 5: users sign up, log in, post short messages and delete their own. The same “add tweet” flow is implemented three ways: a plain HTML form, a Django Form and a ModelForm.
 
 **Quick start:** `pip install -r requirements.txt && python djangotweet/manage.py runserver`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 Django 5 ile yazılmış, Twitter benzeri küçük bir web uygulaması. Kullanıcılar kayıt olup giriş yapabilir, kısa mesaj paylaşabilir ve kendi mesajlarını silebilir. “Tweet ekleme” akışı üç farklı yolla yazılmıştır: düz HTML formu, Django Form ve ModelForm.
 
-## ✨ Özellikler
+## Özellikler
 
 - Kayıt, giriş ve çıkış (Django auth)
 - Tweet listeleme, ekleme ve silme
 - HTML formu / `forms.Form` / `ModelForm` karşılaştırması
 - Şablon kalıtımı (`base.html`) ve özel CSS
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -41,7 +41,7 @@ python manage.py runserver
 
 Ardından `http://127.0.0.1:8000/tweetapp/` adresini açın.
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 TweetWithDjango/
@@ -70,7 +70,7 @@ TweetWithDjango/
     └── manage.py
 ```
 
-## 📝 Notlar
+## Notlar
 
 - `settings.py` içindeki `SECRET_KEY` yalnızca yerel geliştirme içindir; yayına alınacaksa ortam değişkenine taşınmalıdır.
 - Veritabanı dosyası (`db.sqlite3`) depodan çıkarıldı; ilk çalıştırmada `migrate` ile oluşturulur.
